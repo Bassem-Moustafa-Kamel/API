@@ -31,6 +31,10 @@ git status then git add . then git status then git commit -m 'Created Model -a' 
 10) Now we add the data, to seed them go to the seeder then run the seed artisan command : php artisan db:seed
 11) Export the database againg and place it in the db folder the push on github again
 
+12) Lets build some relationships between the products and reviews,so go to the Product and Review models
+13) Go to the tinker to test the relationship
+14)
+
 
 
 */
