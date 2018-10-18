@@ -27,5 +27,10 @@ git status then git add . then git status then git commit -m 'Created Model -a' 
 7) Create a folder called db and export the database created and paste it in this folder, so at every commit you get the database too
 8) Push everthing on github again
 
+9) We want to push some data to the databse through the factories, so go to the ProductFactory and ReviewFactory to add some data
+10) Now we add the data, to seed them go to the seeder then run the seed artisan command : php artisan db:seed
+11) Export the database againg and place it in the db folder the push on github again
+
+
 
 */
