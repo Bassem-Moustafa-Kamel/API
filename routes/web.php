@@ -20,6 +20,6 @@ Route::get('/', function () {
 2) Do the same thing with reviews : php artisan make:model Mode/Review -a
 3) Go to api.php file ctrl + p then type api.php
 4) Make the apiResource for the products and reviews then push everything on github :
-    git status then git add . then git status then git commit
+    git status then git add . then git status then git commit -m 'Created Model -a' then git push
 
 */
