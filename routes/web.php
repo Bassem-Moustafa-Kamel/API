@@ -24,7 +24,8 @@ git status then git add . then git status then git commit -m 'Created Model -a' 
 
 5) Now its time for the migration process, so got the products and reviews mgration fiels and implement them
 6) Create and database and set its connection with the application to run the migration command : php artisan migrate
-7) Push everthing on github again
+7) Create a folder called db and export the database created and paste it in this folder, so at every commit you get the database too
+8) Push everthing on github again
 
 
 */
