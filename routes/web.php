@@ -41,3 +41,7 @@ git status then git add . then git status then git commit -m 'Created Model -a' 
 
 
 */
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
