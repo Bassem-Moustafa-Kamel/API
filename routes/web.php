@@ -33,7 +33,10 @@ git status then git add . then git status then git commit -m 'Created Model -a' 
 
 12) Lets build some relationships between the products and reviews,so go to the Product and Review models
 13) Go to the tinker to test the relationship
-14)
+14) Push to the repo
+15) Now we will startto create the resources of the product, to generate a resource, we should use the artisan command : php artisan make:resource Product/ProductCollection and create another one called ProductResource which will extends JsonResource class
+
+16) Go to the ProductResource and implement it
 
 
 
